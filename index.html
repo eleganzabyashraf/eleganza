@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleganza by Ashraf | Premium Women's Fashion</title>
+    <meta name="robots" content="index, follow">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- script JS -->
+
+    <script src="script.js" defer></script>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon11.png">
+    <link rel="icon" href="images/favicon11.png" type="image/png" />
+    <link rel="icon" href="images/favicon11.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon11.png">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="images/logo_mod1.png" alt="Eleganza by Ashraf Logo">
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="collection">Collection</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="help">Help</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <!-- =========================
+         HOME PAGE
+    ========================== -->
+    <main id="home" class="page active-page">
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-subtitle">
+                    Luxury Fashion for Every Chapter
+                </span>
+
+                <h1>
+                    The Art of Dressing Beautifully
+                </h1>
+
+                <p>
+                    From playful teenage fashion to timeless bridal couture,
+                    discover elegance crafted for every woman.
+                </p>
+
+                <button class="btn-primary" onclick="showPage('collection')">
+                    Explore Collection
+                </button>
+
+            </div>
+
+            <div class="hero-slider">
+
+                <img id="slider-image" src="images/collection15.png" alt="Fashion Collection">
+
+
+
+            </div>
+
+        </section>
+
+        <!-- Featured Collection -->
+
+        <section class="section">
+
+            <div class="section-header">
+                <h2>Featured Collections</h2>
+                <p>Curated pieces designed to celebrate femininity.</p>
+            </div>
+
+            <div class="grid-container">
+
+                <article class="card">
+
+                    <img src="images/collection37.png" alt="Bridal Collection">
+
+                    <div class="card-content">
+                        <span>Bridal Couture</span>
+                        <h3>Royal Crimson Lehenga</h3>
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img src="images/collection45.png" alt="Newly Wed Collection">
+
+                    <div class="card-content">
+                        <span>Newly Wed</span>
+                        <h3>Pastel Silk Saree</h3>
+                    </div>
+
+                </article>
+
+                <article class="card">
+
+                    <img src="images/collection49.png" alt="Festive Wear">
+
+                    <div class="card-content">
+                        <span>Festive Collection</span>
+                        <h3>Elegant Anarkali Suit</h3>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <button class="btn-primary collection" onclick="showPage('collection')">
+                More Collections
+            </button>
+
+        </section>
+
+    </main>
+
+    <!-- =========================
+         COLLECTION PAGE
+    ========================== -->
+    <section id="collection" class="page">
+
+        <div class="page-header">
+            <h2>Our Collection</h2>
+            <p>Designed for every stage of a woman's journey.</p>
+        </div>
+
+        <div class="grid-container">
+
+            <article class="card">
+                <img src="images/collection12.png" alt="">
+                <div class="card-content">
+                    <span>Royal Lengha Collection</span>
+                    <h3>Elegance Fit for Royalty</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection37.png" alt="">
+                <div class="card-content">
+                    <span>Bridal Lehenga</span>
+                    <h3>Wedding Elegance</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection49.png" alt="">
+                <div class="card-content">
+                    <span>Occasional Wear</span>
+                    <h3>Anarkali</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection14.png" alt="">
+                <div class="card-content">
+                    <span>Kids Collection</span>
+                    <h3>Mini Anarkali kurta</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection26.png" alt="">
+                <div class="card-content">
+                    <span>Occasional Wear</span>
+                    <h3>Designer Gown</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection39.png" alt="">
+                <div class="card-content">
+                    <span>Party & Festive Lehenga</span>
+                    <h3>Celebrate in Style</h3>
+                </div>
+            </article>
+            <article class="card show-more-card" id="showMoreBtn">
+                <div class="show-more-content">
+                    <h3>+ Show More</h3>
+                    <p>&nbsp;&nbsp;Explore more collections</p>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- HIDDEN COLLECTIONS -->
+
+        <div class="extra-collections" id="extraCollections">
+
+            <article class="card">
+                <img src="images/collection7.png" alt="">
+                <div class="card-content">
+                    <span>Long Kurta</span>
+                    <h3>Graceful Flow</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection11.png" alt="">
+                <div class="card-content">
+                    <span>Party Anarkali</span>
+                    <h3>Luxurious Touch</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection13.png" alt="">
+                <div class="card-content">
+                    <span>Bridal Gown</span>
+                    <h3>Fitted Elegance</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection22.png" alt="">
+                <div class="card-content">
+                    <span>Classic Tailored Suit</span>
+                    <h3>Retro Charm Suit</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection.png" alt="">
+                <div class="card-content">
+                    <span>Stylish Indo-Western</span>
+                    <h3>Modern Heritage Look</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection24.png" alt="">
+                <div class="card-content">
+                    <span>Modern Ethnic Glam</span>
+                    <h3>Contemporary Lehenga Style</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection25.png" alt="">
+                <div class="card-content">
+                    <span>Vibrant Banarasi Magic</span>
+                    <h3>Traditional Yet Trendy</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection27.png" alt="">
+                <div class="card-content">
+                    <span>Saree Styles</span>
+                    <h3>Modern Traditional Fusion</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection28.png" alt="">
+                <div class="card-content">
+                    <span>Lace Gown</span>
+                    <h3>Classic Kurdish-style</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection30.png" alt="">
+                <div class="card-content">
+                    <span>Vibrant Georgette Lehenga</span>
+                    <h3>Bright Colors for Festive Occasions</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection33.png" alt="">
+                <div class="card-content">
+                    <span>Royal Sangeet Lehenga</span>
+                    <h3>Dance-ready Comfort</h3>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="images/collection47.png" alt="">
+                <div class="card-content">
+                    <span>Stylish Sharara Set</span>
+                    <h3>Trendy and Comfortable</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection5.png" alt="">
+                <div class="card-content">
+                    <span>Glamorous Indo-Western</span>
+                    <h3>Tradition with a Modern Twist</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection36.png" alt="">
+                <div class="card-content">
+                    <span>Blossom Royale</span>
+                    <h3>Floral Embroidery Lehenga Choli</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection10.png" alt="">
+                <div class="card-content">
+                    <span>Organza Silk Lehenga</span>
+                    <h3>Unveil Your Inner Queen</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection31.png" alt="">
+                <div class="card-content">
+                    <span>Festive Palazzo Collection</span>
+                    <h3>Elegance Made Easy</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection38.png" alt="">
+                <div class="card-content">
+                    <span>Midnight Sparkle</span>
+                    <h3>Sequin Worked Lehenga</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection42.png" alt="">
+                <div class="card-content">
+                    <span>Black Pearl</span>
+                    <h3>Premium Occasion Wear</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection43.png" alt="">
+                <div class="card-content">
+                    <span>Premium Luxury Jalabiya</span>
+                    <h3>Unparalleled Comfort</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection46.png" alt="">
+                <div class="card-content">
+                    <span>Royal Black & Gold Kaftan</span>
+                    <h3>Embrace the Luxe Look</h3>
+                </div>
+            </article>
+            <article class="card">
+                <img src="images/collection48.png" alt="">
+                <div class="card-content">
+                    <span>Exquisite Handwoven Silk Saree</span>
+                    <h3>Crafted with Tradition and Precision</h3>
+                </div>
+            </article>
+            </article>
+            <article class="card">
+                <img src="images/collection29.png" alt="">
+                <div class="card-content">
+                    <span>Intricate Worked Lengha</span>
+                    <h3>Traditionally Detailed </h3>
+                </div>
+            </article>
+            </article>
+            <article class="card">
+                <img src="images/collection32.png" alt="">
+                <div class="card-content">
+                    <span>Majestic Embroidered Bridal Lehenga</span>
+                    <h3>Premium Wedding Ensemble</h3>
+                </div>
+            </article>
+            </article>
+            <article class="card">
+                <img src="images/collection40.png" alt="">
+                <div class="card-content">
+                    <span>Luxury Floral Saree</span>
+                    <h3>Subtle Beauty for Every Occasion</h3>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         ABOUT PAGE
+    ========================== -->
+    <section id="about" class="page">
+
+        <div class="page-header">
+            <h2>Our Story</h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-image">
+                <img src="images/about.png" alt="About Eleganza">
+            </div>
+
+            <div class="about-content">
+
+                <h3>Elegance Beyond Fashion</h3>
+
+                <p>
+                    Eleganza by Ashraf is dedicated to celebrating
+                    femininity through carefully curated fashion.
+                    Every collection reflects grace, confidence,
+                    and timeless beauty.
+                    Eleganza by Ashraf is more than a fashion label—it is a celebration of femininity, grace, and
+                    individuality. We are dedicated to curating timeless ensembles that reflect confidence, elegance,
+                    and
+                    the beauty of every stage of a woman’s journey.
+
+                </p>
+
+
+
+                <p>
+                    From teenagers discovering their personal style, to brides stepping into their most cherished
+                    moments,
+                    and women embracing everyday elegance, our designs are crafted to tell stories—stories of identity,
+                    tradition, and modern sophistication.
+                    Every piece in our collection is thoughtfully designed to blend heritage craftsmanship with
+                    contemporary
+                    aesthetics, ensuring that each outfit becomes more than attire—it becomes an expression of who you
+                    are.
+
+                </p>
+
+            </div>
+
+        </div>
+        <section class="signature-section">
+
+            <div class="container">
+
+                <h2 class="section-title">Our Signature Collections</h2>
+
+                <p class="section-subtitle">
+                    At Eleganza by Ashraf, we offer a diverse range of luxury ethnic and contemporary wear designed for
+                    every occasion.
+                </p>
+
+                <!-- Royal & Bridal -->
+                <div class="collection-block">
+                    <h3>Royal & Bridal Elegance</h3>
+                    <ul>
+                        <li><span>Royal Lehenga Collection</span> — Elegance Fit for Royalty</li>
+                        <li><span>Majestic Embroidered Bridal Lehenga</span> — Premium Wedding Ensemble</li>
+                        <li><span>Bridal Lehenga</span> — Wedding Elegance</li>
+                        <li><span>Royal Sangeet Lehenga</span> — Dance-ready Comfort</li>
+                        <li><span>Bridal Gown</span> — Fitted Elegance</li>
+                    </ul>
+                </div>
+
+                <!-- Festive -->
+                <div class="collection-block">
+                    <h3>Festive & Occasion Wear</h3>
+                    <ul>
+                        <li><span>Party & Festive Lehenga</span> — Celebrate in Style</li>
+                        <li><span>Organza Silk Lehenga</span> — Unveil Your Inner Queen</li>
+                        <li><span>Midnight Sparkle</span> — Sequin Worked Lehenga</li>
+                        <li><span>Vibrant Georgette Lehenga</span> — Bright Colors for Festive Occasions</li>
+                        <li><span>Festive Palazzo Collection</span> — Elegance Made Easy</li>
+                        <li><span>Stylish Sharara Set</span> — Trendy and Comfortable</li>
+                    </ul>
+                </div>
+
+                <!-- Contemporary -->
+                <div class="collection-block">
+                    <h3>Contemporary & Modern Ethnic Wear</h3>
+                    <ul>
+                        <li><span>Stylish Indo-Western</span> — Modern Heritage Look</li>
+                        <li><span>Modern Ethnic Glam</span> — Contemporary Lehenga Style</li>
+                        <li><span>Glamorous Indo-Western</span> — Tradition with a Modern Twist</li>
+                        <li><span>Classic Tailored Suit</span> — Retro Charm Suit</li>
+                        <li><span>Long Kurta</span> — Graceful Flow</li>
+                        <li><span>Party Anarkali</span> — Luxurious Touch</li>
+                    </ul>
+                </div>
+
+                <!-- Sarees -->
+                <div class="collection-block">
+                    <h3>Sarees & Timeless Drapes</h3>
+                    <ul>
+                        <li><span>Exquisite Handwoven Silk Saree</span> — Crafted with Tradition and Precision</li>
+                        <li><span>Luxury Floral Saree</span> — Subtle Beauty for Every Occasion</li>
+                        <li><span>Saree Styles</span> — Modern Traditional Fusion</li>
+                        <li><span>Vibrant Banarasi Magic</span> — Traditional Yet Trendy</li>
+                    </ul>
+                </div>
+
+                <!-- Signature -->
+                <div class="collection-block">
+                    <h3>Signature & Statement Pieces</h3>
+                    <ul>
+                        <li><span>Black Pearl</span> — Premium Occasion Wear</li>
+                        <li><span>Royal Black & Gold Kaftan</span> — Embrace the Luxe Look</li>
+                        <li><span>Premium Luxury Jalabiya</span> — Unparalleled Comfort</li>
+                        <li><span>Blossom Royale</span> — Floral Embroidery Lehenga Choli</li>
+                        <li><span>Intricate Worked Lehenga</span> — Traditionally Detailed</li>
+                    </ul>
+                </div>
+
+                <!-- Philosophy -->
+                <div class="philosophy">
+
+                    <h2>Our Philosophy</h2>
+
+                    <p>
+                        We believe fashion is not just about clothing—it is about emotion, identity, and expression.
+                        Every design at Eleganza by Ashraf is created with attention to detail, premium craftsmanship,
+                        and a deep respect for cultural heritage.
+                    </p>
+
+                    <p>
+                        Our goal is to make every woman feel confident, beautiful, and unforgettable—no matter the
+                        occasion.
+                    </p>
+
+                    <h3>Elegance That Defines You</h3>
+
+                    <p class="highlight">
+                        At Eleganza by Ashraf, we don’t just design outfits.<br>
+                        We design moments. We design memories. We design elegance that stays forever.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+    </section>
+
+    <!-- =========================
+         HELP PAGE
+    ========================== -->
+    <section id="help" class="page">
+
+        <div class="page-header">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-container">
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you offer bridal customization?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we offer premium bridal customization tailored to your style, fit, and occasion.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    What type of outfits do you specialize in?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        We specialize in bridal wear, festive outfits, sarees, kaftans, jalabiyas, and modern ethnic
+                        fashion.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you have collections for young girls and teenagers?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we offer curated collections for teenagers and young girls focusing on stylish and elegant
+                        ethnic wear.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you offer ready-to-wear outfits?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we offer both ready-to-wear and custom-stitched premium ethnic collections.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    What makes Eleganza by Ashraf different?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        We focus on luxury craftsmanship, elegant designs, and outfits that represent femininity and
+                        timeless beauty.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you offer sarees and traditional wear?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we offer handwoven silk sarees, Banarasi styles, and modern fusion drapes.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Are your outfits suitable for weddings and parties?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, our collections include bridal, sangeet, party wear, and festive outfits designed for all
+                        occasions.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you provide plus-size customization?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we provide custom tailoring to ensure perfect fitting for all body types.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    How can I place an order?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        You can place an order by contacting us through the website contact form or direct inquiry.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    How long does bridal delivery take?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Typically 4–6 weeks depending on design
+                        complexity and customization.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you provide consultation services?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Absolutely. We offer private styling
+                        consultations by appointment.
+                    </p>
+                </div>
+
+            </div>
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Can I book a consultation before ordering?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, you can book a personalized styling consultation to explore the perfect outfit for your
+                        occasion. Contact us to schedule your session.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Can I request a custom design for my special event?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Absolutely! Share your inspiration with us and we will create a bespoke design tailored
+                        exclusively for you.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    How can I explore your latest collection?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Visit our collection section or reach out directly to discover our newest arrivals and exclusive
+                        designs curated for you.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you assist in choosing the right outfit for occasions?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, our team is happy to guide you in selecting the perfect outfit based on your event, style,
+                        and preference. Contact us for assistance.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Can I get outfit recommendations based on my style?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Definitely! Share your style preference with us and we will recommend curated pieces that match
+                        your personality and occasion.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you accept bulk or wedding orders?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we accept bulk bridal and wedding orders. Contact us early so we can design and deliver
+                        your dream collection on time.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Can I visit or contact you directly for styling help?
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, we welcome direct inquiries. Reach out through our contact page and our styling team will
+                        assist you personally.
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         CONTACT PAGE
+    ========================== -->
+
+    <section id="contact" class="page">
+
+        <div class="page-header">
+            <h2>Contact Us</h2>
+            <p>Let's create your dream look together.</p>
+        </div>
+
+        <div class="contact-wrapper">
+
+            <div class="contact-form-box">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Fashion Interest</label>
+                        <input type="text" placeholder="Bridal, Festive, Casual...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="6" placeholder="Tell us about your requirements"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps?q=19.0796011,72.8405007&z=17&output=embed" loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </div>
+
+        <div class="sm_container">
+            <div class="sm_footer">
+                <a href="https://www.facebook.com/17841400247200769/videos/7056525901136481/" target="_blank"
+                    class="icon">
+                    <i class="fa-brands fa-facebook" style="color: #cc608d;"></i>
+                </a>
+
+                <a href="https://www.instagram.com/eleganzabyashraf/" target="_blank" class="icon">
+                    <i class="fa-brands fa-instagram" style="color: #cc608d;"></i>
+                </a>
+
+                <a href="https://wa.me/9136316946?text=Hello%20Eleganza%20by%20Ashraf%2C%20I%20want%20to%20enquire%20about%20your%20collection"
+                    target="_blank" class="icon">
+                    <i class="fa-brands fa-square-whatsapp" style="color: #cc608d;"></i>
+                </a>
+
+                <a href="mailto:eleganzabyashraf@gmail.com" class="icon" target="_blank">
+                    <i class="fa-solid fa-envelope" style="color: #cc608d;"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <!-- =========================
+         FOOTER
+    ========================== -->
+   
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+
+            <!-- Collections -->
+            <div class="footer-column">
+
+                <h4>Signature Collections</h4>
+
+                <ul>
+                    <li>Royal Bridal Lehengas</li>
+                    <li>Ethereal Ghararas</li>
+                    <li>Luxurious Gown Sets</li>
+                    <li>Elegant Collar Drape Dresses</li>
+                    <li>Stylish Cape Dresses</li>
+                    <li>Sharara Sets</li>
+                    <li>Indo-Western Wear</li>
+                    <li>Handcrafted Party Lehengas</li>
+                  
+                    
+                </ul>
+
+            </div>
+            
+
+            <!-- Contact -->
+            <div class="footer-column">
+
+                <h4>Visit Us</h4>
+
+                <p>
+                    Shop No. 3, Queens Square,<br>
+                    2nd Hasnabad Lane,<br>
+                    Near Benz Hospital,<br>
+                    Santacruz (W), Mumbai - 400054
+                </p>
+
+
+            </div>
+
+        </div>
+
+        <!-- Highlights -->
+        <div class="footer-highlights">
+
+            <span>✓ Fully Handcrafted</span>
+            <span>✓ Premium Designer Couture</span>
+            <span>✓ Bridal Customization Available</span>
+            <span>✓ Luxury Ethnic Wear</span>
+
+        </div>
+
+        <!-- Policy -->
+        <div class="footer-policy">
+
+            <p>
+                Policy: All products are handcrafted and made with
+                attention to detail. Orders are non-refundable and
+                non-returnable.
+            </p>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Eleganza by Ashraf. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
